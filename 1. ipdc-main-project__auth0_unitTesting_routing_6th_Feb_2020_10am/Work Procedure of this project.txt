@@ -1,0 +1,7 @@
+>> vue create ipdc-main-project
+	->Babel
+	->Router
+	->Vuex
+	->Unit Testing (Jest)
+>> vue add vuetify
+>> npm install -save auth0-js

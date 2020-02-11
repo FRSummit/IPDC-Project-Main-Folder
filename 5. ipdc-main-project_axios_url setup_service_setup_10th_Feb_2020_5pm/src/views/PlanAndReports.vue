@@ -1,0 +1,141 @@
+<template>
+  <v-ons-page>
+    <div class="plan-and-reports">
+      <!-- <h3>Plan &amp; Repors</h3> -->
+        <div class="center search" style="text-align: right;">
+            <div id="search-input" placeholder="Search">
+                <input type="search" class="hh search-input search-input--material" placeholder="Search">
+            </div>
+        </div>
+        
+        <button class="waves-effect waves-light btn" @click="createNew">Create</button>
+
+        <div class="report-unit-sec">
+            <div class="row plan-and-report-row">
+                <v-ons-card class="card-radius plan-card">
+                    <div>
+                        <router-link to='/planandreports/report_landing_page'>
+                            <div class="content">
+                                <p class="report-card">2019_Dec-2019_Dec_Unit_Traning Unit</p>
+                            </div>
+                        </router-link>
+                    </div>
+                    <div>
+                        <router-link to='/planandreports/report_landing_page'>
+                            <div class="content">
+                                <p class="report-card">2019_Dec-2019_Dec_Unit_Traning Unit</p>
+                            </div>
+                        </router-link>
+                    </div>
+                </v-ons-card>
+            </div>
+        </div>
+    </div>
+  </v-ons-page>
+</template>
+
+<script>
+import UnitPlanReportService from '../services/UnitPlanReportService'
+const unitPlanReportService = new UnitPlanReportService();
+
+import axios from 'axios';
+var url = 'http://localhost:50009/reporting/v1/all/search?page=1&pageSize=10';
+
+export default {
+  components: {
+  },
+
+  data () {
+    return {
+    }
+  },
+  created() {
+    // let componentName = {'name': 'Plan & Reports'};
+    // localStorage.setItem('ipdc_current_component_name', JSON.stringify(componentName));
+  },
+  methods:{
+    createNew() {
+      console.log('Create button clicked');
+      unitPlanReportService
+        .getAllPosts()
+        .then(res => {
+            console.log('working');
+            console.log(res);
+            console.log(res.data);
+        })
+        .catch(err =>{
+            console.log('error : ');
+            console.error(err);
+        });
+        /*axios.get(url).then(response => {
+            // this.usdPrivatBank = response.data[4].buy;
+            console.log(response);
+        });*/
+        /*fetch(url, { mode: 'no-cors'})
+            .then(response => {
+                response.text();
+                console.log(response.text());
+            })
+            .then(contents => {
+                console.log(contents)
+            })
+            .catch(() => console.log("Can’t access " + url + " response. Blocked by browser?"))*/
+        /*axios
+            .get('http://localhost:50009/reporting/v1/all/search?page=1&pageSize=10.json')
+            .then(response => {
+                console.log(response);
+            })*/
+    }
+  },
+  watch: {
+  },
+};
+</script>
+
+<style scoped>
+.plan-and-reports {
+    padding: 0 4px;
+}
+.planandreport-title {
+    font-size: 26px;
+    margin: 0px;
+} 
+/* .title {
+    text-align: left;
+    font-size: 26px;
+    margin: 10px;
+    position: absolute;
+    top: 0;
+    background: #EE6E73;
+    color: #fff;
+    min-width: 35%;
+} */
+.search {
+    text-align: right;
+}
+.search ons-search-input {
+    margin-right: 10px;
+}
+.search input.search-input.search-input--material {
+    height: 28px !important;
+    background-size: 13px;
+    background-position: 8px center;
+    padding: 0 8px 0 28px !important;
+    width: auto !important;
+}
+.plan-and-report-row {
+    margin: 0;
+}
+.card-radius.plan-card {
+    margin: 8px 0;
+    width: 100%;
+}
+.card-radius.plan-card .report-card {
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 5px;
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .54);
+}
+</style>

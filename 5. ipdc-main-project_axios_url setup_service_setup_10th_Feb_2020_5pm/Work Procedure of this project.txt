@@ -1,0 +1,64 @@
+>> vue create ipdc-main-project
+	->Babel
+	->Router
+	->Vuex
+	->Unit Testing (Jest)
+>> vue add vuetify
+>> npm install -save auth0-js
+----------------------------------------------------------------------------------------------------------------
+
+>> npm install --save-dev @fortawesome/fontawesome-free
+  [in the main.js file insert fontawesome]
+  [https://medium.com/front-end-weekly/how-to-use-fon-awesome-5-on-vuejs-project-ff0f28310821]
+  {
+    import '@fortawesome/fontawesome-free/css/all.css'
+    import '@fortawesome/fontawesome-free/js/all.js'
+  }
+>> npm install materialize-css@next
+>> npm install onsenui vue-onsenui
+  [in the main.js file insert fontawesome]
+  [https://onsen.io/v2/guide/vue/]
+  {
+    import 'onsenui/css/onsenui.css';
+    import 'onsenui/css/onsen-css-components.css';
+
+    import Vue from 'vue';
+    import VueOnsen from 'vue-onsenui';
+
+    Vue.use(VueOnsen);
+  }
+
+----------------------------------------------------------------------------------------------------------------
+
+MemberSwip is the parent swip page which can swip Member, AssociateMember, PriliminaryMember, SupporterMember.
+Mutation observer also added in MemberSwip page.
+This mutation can track if user swip any page. It actually track which tab is active or not.
+
+----------------------------------------------------------------------------------------------------------------
+
+Home page has been added. This Home page have the sub pages (Login and Dashboard).
+The parent component is Home page. Login and Dashboard can swip each other....
+
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------
