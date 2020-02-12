@@ -1,0 +1,465 @@
+
+===========================
+Plan And Report
+===========================
+[Network]
+http://localhost:50009//reporting/v1/organization/myorganizations
+[{"id":13,"organizationType":1,"organizationTypeDescription":"Unit","description":"Canberra Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":2,"description":"ACT","searchTerms":null},"parentDescription":"ACT","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":2,"organizationType":3,"organizationTypeDescription":"State","description":"ACT","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":4,"organizationType":3,"organizationTypeDescription":"State","description":"NSW","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":8,"organizationType":3,"organizationTypeDescription":"State","description":"NT","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":5,"organizationType":3,"organizationTypeDescription":"State","description":"QLD","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":6,"organizationType":3,"organizationTypeDescription":"State","description":"SA","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":9,"organizationType":3,"organizationTypeDescription":"State","description":"TAS","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":3,"organizationType":3,"organizationTypeDescription":"State","description":"Victoria","details":"President: Khurshed Alam","reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":7,"organizationType":3,"organizationTypeDescription":"State","description":"WA","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":19,"organizationType":3,"organizationTypeDescription":"State","description":"WMN","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.137","managedOrganizations":[]},{"id":17,"organizationType":1,"organizationTypeDescription":"Unit","description":"Darwin Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":8,"description":"Northern Australia","searchTerms":null},"parentDescription":"Northern Australia","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":14,"organizationType":1,"organizationTypeDescription":"Unit","description":"Brisbane Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":5,"description":"QLD","searchTerms":null},"parentDescription":"QLD","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":1,"organizationType":5,"organizationTypeDescription":"Central","description":"Central","details":null,"reportingFrequency":12,"reportingFrequencyDescription":"Yearly","parent":{"id":0,"description":"Root","searchTerms":null},"parentDescription":"","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":21,"organizationType":5,"organizationTypeDescription":"Central","description":"Test Central","details":null,"reportingFrequency":12,"reportingFrequencyDescription":"Yearly","parent":{"id":0,"description":"Root","searchTerms":null},"parentDescription":"","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":15,"organizationType":1,"organizationTypeDescription":"Unit","description":"adelaide Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":6,"description":"South Australia","searchTerms":null},"parentDescription":"South Australia","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":18,"organizationType":1,"organizationTypeDescription":"Unit","description":"Hobart Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":9,"description":"Tasmania","searchTerms":null},"parentDescription":"Tasmania","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":22,"organizationType":3,"organizationTypeDescription":"State","description":"Test Victoria","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":21,"description":"Test Central","searchTerms":null},"parentDescription":"Test Central","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":25,"organizationType":1,"organizationTypeDescription":"Unit","description":"Test Canberra Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":23,"description":"Test NSW Zone","searchTerms":null},"parentDescription":"Test NSW Zone","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":24,"organizationType":1,"organizationTypeDescription":"Unit","description":"Test truganinaNorth Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":23,"description":"Test NSW Zone","searchTerms":null},"parentDescription":"Test NSW Zone","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":27,"organizationType":1,"organizationTypeDescription":"Unit","description":"Test Adelaide Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":22,"description":"Test Victoria","searchTerms":null},"parentDescription":"Test Victoria","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":26,"organizationType":1,"organizationTypeDescription":"Unit","description":"Test Perth Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":22,"description":"Test Victoria","searchTerms":null},"parentDescription":"Test Victoria","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":23,"organizationType":2,"organizationTypeDescription":"Zone","description":"Test NSW Zone","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":22,"description":"Test Victoria","searchTerms":null},"parentDescription":"Test Victoria","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":32,"organizationType":1,"organizationTypeDescription":"Unit","description":"Clayton Unit","details":"President: Abdur Rahim Snr","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":33,"organizationType":1,"organizationTypeDescription":"Unit","description":"Fawkner Unit","details":"President: Rezwan Farid Ahmed","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":10,"organizationType":1,"organizationTypeDescription":"Unit","description":"Footscray Unit","details":"President: Dr Eng Rafiqul Islam","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":31,"organizationType":1,"organizationTypeDescription":"Unit","description":"Point Cook Unit","details":"President: Hafizur Rahman","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":36,"organizationType":1,"organizationTypeDescription":"Unit","description":"Street Dawah Unit","details":"In Charge: Afzalul Kabir","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":11,"organizationType":1,"organizationTypeDescription":"Unit","description":"Sunshine Unit","details":"President: Sakinul Islam","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":29,"organizationType":1,"organizationTypeDescription":"Unit","description":"Tarneit Unit","details":"President: Omar Faruq","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":12,"organizationType":1,"organizationTypeDescription":"Unit","description":"Truganina North Unit","details":"President: Shamsul Alom","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":28,"organizationType":1,"organizationTypeDescription":"Unit","description":"Truganina South Unit","details":"President: Capt. Faruk Ahmed","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":30,"organizationType":1,"organizationTypeDescription":"Unit","description":"Williams Landing Unit","details":"President: Al-Amin Jnr","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":35,"organizationType":1,"organizationTypeDescription":"Unit","description":"YMB (JNR) Unit","details":"President: Yusuf Amin","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":34,"organizationType":1,"organizationTypeDescription":"Unit","description":"YMB (SNR) Unit","details":"President: Saad Pramanik","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":16,"organizationType":1,"organizationTypeDescription":"Unit","description":"Perth Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":7,"description":"Western Australia","searchTerms":null},"parentDescription":"Western Australia","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":20,"organizationType":1,"organizationTypeDescription":"Unit","description":"WMN Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":19,"description":"WMN","searchTerms":null},"parentDescription":"WMN","timestamp":"2020-02-03T13:34:09.137","managedOrganizations":[]}]
+
+http://localhost:50009//reporting/v1/organization/myorganizations
+[{"id":13,"organizationType":1,"organizationTypeDescription":"Unit","description":"Canberra Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":2,"description":"ACT","searchTerms":null},"parentDescription":"ACT","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":2,"organizationType":3,"organizationTypeDescription":"State","description":"ACT","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":4,"organizationType":3,"organizationTypeDescription":"State","description":"NSW","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":8,"organizationType":3,"organizationTypeDescription":"State","description":"NT","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":5,"organizationType":3,"organizationTypeDescription":"State","description":"QLD","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":6,"organizationType":3,"organizationTypeDescription":"State","description":"SA","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":9,"organizationType":3,"organizationTypeDescription":"State","description":"TAS","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":3,"organizationType":3,"organizationTypeDescription":"State","description":"Victoria","details":"President: Khurshed Alam","reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":7,"organizationType":3,"organizationTypeDescription":"State","description":"WA","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":19,"organizationType":3,"organizationTypeDescription":"State","description":"WMN","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.137","managedOrganizations":[]},{"id":17,"organizationType":1,"organizationTypeDescription":"Unit","description":"Darwin Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":8,"description":"Northern Australia","searchTerms":null},"parentDescription":"Northern Australia","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":14,"organizationType":1,"organizationTypeDescription":"Unit","description":"Brisbane Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":5,"description":"QLD","searchTerms":null},"parentDescription":"QLD","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":1,"organizationType":5,"organizationTypeDescription":"Central","description":"Central","details":null,"reportingFrequency":12,"reportingFrequencyDescription":"Yearly","parent":{"id":0,"description":"Root","searchTerms":null},"parentDescription":"","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":21,"organizationType":5,"organizationTypeDescription":"Central","description":"Test Central","details":null,"reportingFrequency":12,"reportingFrequencyDescription":"Yearly","parent":{"id":0,"description":"Root","searchTerms":null},"parentDescription":"","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":15,"organizationType":1,"organizationTypeDescription":"Unit","description":"adelaide Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":6,"description":"South Australia","searchTerms":null},"parentDescription":"South Australia","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":18,"organizationType":1,"organizationTypeDescription":"Unit","description":"Hobart Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":9,"description":"Tasmania","searchTerms":null},"parentDescription":"Tasmania","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":22,"organizationType":3,"organizationTypeDescription":"State","description":"Test Victoria","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":21,"description":"Test Central","searchTerms":null},"parentDescription":"Test Central","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":25,"organizationType":1,"organizationTypeDescription":"Unit","description":"Test Canberra Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":23,"description":"Test NSW Zone","searchTerms":null},"parentDescription":"Test NSW Zone","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":24,"organizationType":1,"organizationTypeDescription":"Unit","description":"Test truganinaNorth Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":23,"description":"Test NSW Zone","searchTerms":null},"parentDescription":"Test NSW Zone","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":27,"organizationType":1,"organizationTypeDescription":"Unit","description":"Test Adelaide Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":22,"description":"Test Victoria","searchTerms":null},"parentDescription":"Test Victoria","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":26,"organizationType":1,"organizationTypeDescription":"Unit","description":"Test Perth Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":22,"description":"Test Victoria","searchTerms":null},"parentDescription":"Test Victoria","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":23,"organizationType":2,"organizationTypeDescription":"Zone","description":"Test NSW Zone","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":22,"description":"Test Victoria","searchTerms":null},"parentDescription":"Test Victoria","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":32,"organizationType":1,"organizationTypeDescription":"Unit","description":"Clayton Unit","details":"President: Abdur Rahim Snr","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":33,"organizationType":1,"organizationTypeDescription":"Unit","description":"Fawkner Unit","details":"President: Rezwan Farid Ahmed","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":10,"organizationType":1,"organizationTypeDescription":"Unit","description":"Footscray Unit","details":"President: Dr Eng Rafiqul Islam","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":31,"organizationType":1,"organizationTypeDescription":"Unit","description":"Point Cook Unit","details":"President: Hafizur Rahman","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":36,"organizationType":1,"organizationTypeDescription":"Unit","description":"Street Dawah Unit","details":"In Charge: Afzalul Kabir","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":11,"organizationType":1,"organizationTypeDescription":"Unit","description":"Sunshine Unit","details":"President: Sakinul Islam","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":29,"organizationType":1,"organizationTypeDescription":"Unit","description":"Tarneit Unit","details":"President: Omar Faruq","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":12,"organizationType":1,"organizationTypeDescription":"Unit","description":"Truganina North Unit","details":"President: Shamsul Alom","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":28,"organizationType":1,"organizationTypeDescription":"Unit","description":"Truganina South Unit","details":"President: Capt. Faruk Ahmed","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":30,"organizationType":1,"organizationTypeDescription":"Unit","description":"Williams Landing Unit","details":"President: Al-Amin Jnr","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":35,"organizationType":1,"organizationTypeDescription":"Unit","description":"YMB (JNR) Unit","details":"President: Yusuf Amin","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":34,"organizationType":1,"organizationTypeDescription":"Unit","description":"YMB (SNR) Unit","details":"President: Saad Pramanik","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":16,"organizationType":1,"organizationTypeDescription":"Unit","description":"Perth Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":7,"description":"Western Australia","searchTerms":null},"parentDescription":"Western Australia","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":20,"organizationType":1,"organizationTypeDescription":"Unit","description":"WMN Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":19,"description":"WMN","searchTerms":null},"parentDescription":"WMN","timestamp":"2020-02-03T13:34:09.137","managedOrganizations":[]}]
+
+http://localhost:50009//reporting/v1/all/search?page=1&pageSize=10
+{"items":[{"id":8,"description":"2020_Apr-2020_Apr_Unit_WMN Unit","organization":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"reportingPeriod":{"startDate":"2020-04-01T00:00:00","endDate":"2020-04-30T23:59:59","reportingFrequency":1,"reportingTerm":7,"year":2019},"reportStatus":1,"reportStatusDescription":"Draft","reOpenedReportStatus":0,"reOpenedReportStatusDescription":"None","timestamp":"2020-02-12T07:24:58.717"},{"id":9,"description":"2020_Mar-2020_Mar_Unit_WMN Unit","organization":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"reportingPeriod":{"startDate":"2020-03-01T00:00:00","endDate":"2020-03-31T23:59:59","reportingFrequency":1,"reportingTerm":6,"year":2019},"reportStatus":1,"reportStatusDescription":"Draft","reOpenedReportStatus":0,"reOpenedReportStatusDescription":"None","timestamp":"2020-02-12T09:08:05.11"},{"id":4,"description":"2020_Feb-2020_Feb_Unit_Footscray Unit","organization":{"id":10,"organizationType":1,"description":"Footscray Unit","details":"President: Dr Eng Rafiqul Islam","reportingFrequency":1},"reportingPeriod":{"startDate":"2020-02-01T00:00:00","endDate":"2020-02-29T23:59:59","reportingFrequency":1,"reportingTerm":5,"year":2019},"reportStatus":1,"reportStatusDescription":"Draft","reOpenedReportStatus":0,"reOpenedReportStatusDescription":"None","timestamp":"2020-02-03T08:14:19.56"},{"id":5,"description":"2020_Feb-2020_Feb_Unit_Test Perth Unit","organization":{"id":26,"organizationType":1,"description":"Test Perth Unit","details":null,"reportingFrequency":1},"reportingPeriod":{"startDate":"2020-02-01T00:00:00","endDate":"2020-02-29T23:59:59","reportingFrequency":1,"reportingTerm":5,"year":2019},"reportStatus":1,"reportStatusDescription":"Draft","reOpenedReportStatus":0,"reOpenedReportStatusDescription":"None","timestamp":"2020-02-03T08:14:31.623"},{"id":3,"description":"2020_Feb-2020_Feb_Unit_Truganina North Unit","organization":{"id":12,"organizationType":1,"description":"Truganina North Unit","details":"President: Shamsul Alom","reportingFrequency":1},"reportingPeriod":{"startDate":"2020-02-01T00:00:00","endDate":"2020-02-29T23:59:59","reportingFrequency":1,"reportingTerm":5,"year":2019},"reportStatus":1,"reportStatusDescription":"Draft","reOpenedReportStatus":0,"reOpenedReportStatusDescription":"None","timestamp":"2020-02-03T08:14:05.493"},{"id":7,"description":"2020_Feb-2020_Feb_Unit_Williams Landing Unit","organization":{"id":30,"organizationType":1,"description":"Williams Landing Unit","details":"President: Al-Amin Jnr","reportingFrequency":1},"reportingPeriod":{"startDate":"2020-02-01T00:00:00","endDate":"2020-02-29T23:59:59","reportingFrequency":1,"reportingTerm":5,"year":2019},"reportStatus":1,"reportStatusDescription":"Draft","reOpenedReportStatus":0,"reOpenedReportStatusDescription":"None","timestamp":"2020-02-07T10:23:42.217"},{"id":6,"description":"2020_Feb-2020_Feb_Unit_WMN Unit","organization":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"reportingPeriod":{"startDate":"2020-02-01T00:00:00","endDate":"2020-02-29T23:59:59","reportingFrequency":1,"reportingTerm":5,"year":2019},"reportStatus":1,"reportStatusDescription":"Draft","reOpenedReportStatus":0,"reOpenedReportStatusDescription":"None","timestamp":"2020-02-07T10:22:58.403"},{"id":2,"description":"2020_Jan-2020_Mar_State_Test Victoria","organization":{"id":22,"organizationType":3,"description":"Test Victoria","details":null,"reportingFrequency":3},"reportingPeriod":{"startDate":"2020-01-01T00:00:00","endDate":"2020-03-31T23:59:59","reportingFrequency":3,"reportingTerm":2,"year":2019},"reportStatus":1,"reportStatusDescription":"Draft","reOpenedReportStatus":0,"reOpenedReportStatusDescription":"None","timestamp":"2020-02-03T08:13:51.37"},{"id":1,"description":"2020_Jan-2020_Mar_Central_Test Central","organization":{"id":21,"organizationType":5,"description":"Test Central","details":null,"reportingFrequency":12},"reportingPeriod":{"startDate":"2020-01-01T00:00:00","endDate":"2020-03-31T23:59:59","reportingFrequency":3,"reportingTerm":2,"year":2019},"reportStatus":1,"reportStatusDescription":"Draft","reOpenedReportStatus":0,"reOpenedReportStatusDescription":"None","timestamp":"2020-02-03T07:43:07.11"}],"pagingData":{"page":1,"pageSize":10,"totalRecords":9}}
+==================================================================================================================================================================
+
+
+
+
+
+===========================
+Manage Organization
+===========================
+http://localhost:50009//reporting/v1/organization/search?page=1&pageSize=10
+{"items":[{"id":13,"organizationType":1,"organizationTypeDescription":"Unit","description":"Canberra Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":2,"description":"ACT","searchTerms":null},"parentDescription":"ACT","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":2,"organizationType":3,"organizationTypeDescription":"State","description":"ACT","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":4,"organizationType":3,"organizationTypeDescription":"State","description":"NSW","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":8,"organizationType":3,"organizationTypeDescription":"State","description":"NT","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":5,"organizationType":3,"organizationTypeDescription":"State","description":"QLD","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":6,"organizationType":3,"organizationTypeDescription":"State","description":"SA","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":9,"organizationType":3,"organizationTypeDescription":"State","description":"TAS","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":3,"organizationType":3,"organizationTypeDescription":"State","description":"Victoria","details":"President: Khurshed Alam","reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":7,"organizationType":3,"organizationTypeDescription":"State","description":"WA","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":19,"organizationType":3,"organizationTypeDescription":"State","description":"WMN","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.137","managedOrganizations":[]}],"pagingData":{"page":1,"pageSize":10,"totalRecords":36}}
+==================================================================================================================================================================
+
+
+
+
+===========================
+User Administration
+===========================
+http://localhost:50009//reporting/v1/organization/user/search?page=1&pageSize=10
+{"items":[{"id":2,"username":"central@test.com","role":"Admin","organization":{"id":1,"description":"Central","searchTerms":null},"timestamp":"2020-02-03T13:34:09.13"},{"id":5,"username":"footscrayunit@test.com","role":"Admin","organization":{"id":10,"description":"Footscray Unit","searchTerms":null},"timestamp":"2020-02-03T13:34:09.13"},{"id":4,"username":"sunshineunit@test.com","role":"Admin","organization":{"id":11,"description":"Sunshine Unit","searchTerms":null},"timestamp":"2020-02-03T13:34:09.13"},{"id":10,"username":"central@test.com","role":"Admin","organization":{"id":21,"description":"Test Central","searchTerms":null},"timestamp":"2020-02-03T13:34:09.393"},{"id":14,"username":"monir.kl@yahoo.com","role":"Admin","organization":{"id":24,"description":"Test truganinaNorth Unit","searchTerms":null},"timestamp":"2020-02-03T13:34:09.393"},{"id":12,"username":"truganinaNorthUnit@test.com","role":"Admin","organization":{"id":24,"description":"Test truganinaNorth Unit","searchTerms":null},"timestamp":"2020-02-03T13:34:09.393"},{"id":13,"username":"mmmonir@yahoo.com","role":"Admin","organization":{"id":22,"description":"Test Victoria","searchTerms":null},"timestamp":"2020-02-03T13:34:09.393"},{"id":9,"username":"shahed.khan@simplexhub.com","role":"Admin","organization":{"id":22,"description":"Test Victoria","searchTerms":null},"timestamp":"2020-02-03T13:34:09.393"},{"id":11,"username":"victoria@test.com","role":"Admin","organization":{"id":22,"description":"Test Victoria","searchTerms":null},"timestamp":"2020-02-03T13:34:09.393"},{"id":8,"username":"monir.kl@yahoo.com","role":"Admin","organization":{"id":12,"description":"Truganina North Unit","searchTerms":null},"timestamp":"2020-02-03T13:34:09.13"}],"pagingData":{"page":1,"pageSize":10,"totalRecords":14}}
+==================================================================================================================================================================
+
+
+===========================
+Create Plan
+===========================
+http://localhost:50009//reporting/v1/organization/myorganizations
+[{"id":13,"organizationType":1,"organizationTypeDescription":"Unit","description":"Canberra Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":2,"description":"ACT","searchTerms":null},"parentDescription":"ACT","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":2,"organizationType":3,"organizationTypeDescription":"State","description":"ACT","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":4,"organizationType":3,"organizationTypeDescription":"State","description":"NSW","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":8,"organizationType":3,"organizationTypeDescription":"State","description":"NT","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":5,"organizationType":3,"organizationTypeDescription":"State","description":"QLD","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":6,"organizationType":3,"organizationTypeDescription":"State","description":"SA","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":9,"organizationType":3,"organizationTypeDescription":"State","description":"TAS","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":3,"organizationType":3,"organizationTypeDescription":"State","description":"Victoria","details":"President: Khurshed Alam","reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":7,"organizationType":3,"organizationTypeDescription":"State","description":"WA","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":19,"organizationType":3,"organizationTypeDescription":"State","description":"WMN","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":1,"description":"Central","searchTerms":null},"parentDescription":"Central","timestamp":"2020-02-03T13:34:09.137","managedOrganizations":[]},{"id":17,"organizationType":1,"organizationTypeDescription":"Unit","description":"Darwin Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":8,"description":"Northern Australia","searchTerms":null},"parentDescription":"Northern Australia","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":14,"organizationType":1,"organizationTypeDescription":"Unit","description":"Brisbane Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":5,"description":"QLD","searchTerms":null},"parentDescription":"QLD","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":1,"organizationType":5,"organizationTypeDescription":"Central","description":"Central","details":null,"reportingFrequency":12,"reportingFrequencyDescription":"Yearly","parent":{"id":0,"description":"Root","searchTerms":null},"parentDescription":"","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":21,"organizationType":5,"organizationTypeDescription":"Central","description":"Test Central","details":null,"reportingFrequency":12,"reportingFrequencyDescription":"Yearly","parent":{"id":0,"description":"Root","searchTerms":null},"parentDescription":"","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":15,"organizationType":1,"organizationTypeDescription":"Unit","description":"adelaide Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":6,"description":"South Australia","searchTerms":null},"parentDescription":"South Australia","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":18,"organizationType":1,"organizationTypeDescription":"Unit","description":"Hobart Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":9,"description":"Tasmania","searchTerms":null},"parentDescription":"Tasmania","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":22,"organizationType":3,"organizationTypeDescription":"State","description":"Test Victoria","details":null,"reportingFrequency":3,"reportingFrequencyDescription":"Quarterly","parent":{"id":21,"description":"Test Central","searchTerms":null},"parentDescription":"Test Central","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":25,"organizationType":1,"organizationTypeDescription":"Unit","description":"Test Canberra Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":23,"description":"Test NSW Zone","searchTerms":null},"parentDescription":"Test NSW Zone","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":24,"organizationType":1,"organizationTypeDescription":"Unit","description":"Test truganinaNorth Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":23,"description":"Test NSW Zone","searchTerms":null},"parentDescription":"Test NSW Zone","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":27,"organizationType":1,"organizationTypeDescription":"Unit","description":"Test Adelaide Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":22,"description":"Test Victoria","searchTerms":null},"parentDescription":"Test Victoria","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":26,"organizationType":1,"organizationTypeDescription":"Unit","description":"Test Perth Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":22,"description":"Test Victoria","searchTerms":null},"parentDescription":"Test Victoria","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":23,"organizationType":2,"organizationTypeDescription":"Zone","description":"Test NSW Zone","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":22,"description":"Test Victoria","searchTerms":null},"parentDescription":"Test Victoria","timestamp":"2020-02-03T13:34:09.393","managedOrganizations":[]},{"id":32,"organizationType":1,"organizationTypeDescription":"Unit","description":"Clayton Unit","details":"President: Abdur Rahim Snr","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":33,"organizationType":1,"organizationTypeDescription":"Unit","description":"Fawkner Unit","details":"President: Rezwan Farid Ahmed","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":10,"organizationType":1,"organizationTypeDescription":"Unit","description":"Footscray Unit","details":"President: Dr Eng Rafiqul Islam","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":31,"organizationType":1,"organizationTypeDescription":"Unit","description":"Point Cook Unit","details":"President: Hafizur Rahman","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":36,"organizationType":1,"organizationTypeDescription":"Unit","description":"Street Dawah Unit","details":"In Charge: Afzalul Kabir","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":11,"organizationType":1,"organizationTypeDescription":"Unit","description":"Sunshine Unit","details":"President: Sakinul Islam","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":29,"organizationType":1,"organizationTypeDescription":"Unit","description":"Tarneit Unit","details":"President: Omar Faruq","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":12,"organizationType":1,"organizationTypeDescription":"Unit","description":"Truganina North Unit","details":"President: Shamsul Alom","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":28,"organizationType":1,"organizationTypeDescription":"Unit","description":"Truganina South Unit","details":"President: Capt. Faruk Ahmed","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":30,"organizationType":1,"organizationTypeDescription":"Unit","description":"Williams Landing Unit","details":"President: Al-Amin Jnr","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":35,"organizationType":1,"organizationTypeDescription":"Unit","description":"YMB (JNR) Unit","details":"President: Yusuf Amin","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":34,"organizationType":1,"organizationTypeDescription":"Unit","description":"YMB (SNR) Unit","details":"President: Saad Pramanik","reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":3,"description":"Victoria","searchTerms":null},"parentDescription":"Victoria","timestamp":"2020-02-03T13:34:09.687","managedOrganizations":[]},{"id":16,"organizationType":1,"organizationTypeDescription":"Unit","description":"Perth Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":7,"description":"Western Australia","searchTerms":null},"parentDescription":"Western Australia","timestamp":"2020-02-03T13:34:09.13","managedOrganizations":[]},{"id":20,"organizationType":1,"organizationTypeDescription":"Unit","description":"WMN Unit","details":null,"reportingFrequency":1,"reportingFrequencyDescription":"Monthly","parent":{"id":19,"description":"WMN","searchTerms":null},"parentDescription":"WMN","timestamp":"2020-02-03T13:34:09.137","managedOrganizations":[]}]
+
+http://localhost:50009//reporting/v1/reportingperiod/oforganization?organizationId=1
+[{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2018,"reportingFrequency":12,"reportingTerm":1,"startDate":"2018-10-01T00:00:00","endDate":"2019-09-30T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2019,"reportingFrequency":12,"reportingTerm":1,"startDate":"2019-10-01T00:00:00","endDate":"2020-09-30T23:59:59","isActive":true},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2020,"reportingFrequency":12,"reportingTerm":1,"startDate":"2020-10-01T00:00:00","endDate":"2021-09-30T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2021,"reportingFrequency":12,"reportingTerm":1,"startDate":"2021-10-01T00:00:00","endDate":"2022-09-30T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2018,"reportingFrequency":3,"reportingTerm":1,"startDate":"2018-10-01T00:00:00","endDate":"2018-12-31T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2018,"reportingFrequency":3,"reportingTerm":2,"startDate":"2019-01-01T00:00:00","endDate":"2019-03-31T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2018,"reportingFrequency":3,"reportingTerm":3,"startDate":"2019-04-01T00:00:00","endDate":"2019-06-30T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2018,"reportingFrequency":3,"reportingTerm":4,"startDate":"2019-07-01T00:00:00","endDate":"2019-09-30T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2019,"reportingFrequency":3,"reportingTerm":1,"startDate":"2019-10-01T00:00:00","endDate":"2019-12-31T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2019,"reportingFrequency":3,"reportingTerm":2,"startDate":"2020-01-01T00:00:00","endDate":"2020-03-31T23:59:59","isActive":true},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2019,"reportingFrequency":3,"reportingTerm":3,"startDate":"2020-04-01T00:00:00","endDate":"2020-06-30T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2019,"reportingFrequency":3,"reportingTerm":4,"startDate":"2020-07-01T00:00:00","endDate":"2020-09-30T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2020,"reportingFrequency":3,"reportingTerm":1,"startDate":"2020-10-01T00:00:00","endDate":"2020-12-31T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2020,"reportingFrequency":3,"reportingTerm":2,"startDate":"2021-01-01T00:00:00","endDate":"2021-03-31T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2020,"reportingFrequency":3,"reportingTerm":3,"startDate":"2021-04-01T00:00:00","endDate":"2021-06-30T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2020,"reportingFrequency":3,"reportingTerm":4,"startDate":"2021-07-01T00:00:00","endDate":"2021-09-30T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2021,"reportingFrequency":3,"reportingTerm":1,"startDate":"2021-10-01T00:00:00","endDate":"2021-12-31T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2021,"reportingFrequency":3,"reportingTerm":2,"startDate":"2022-01-01T00:00:00","endDate":"2022-03-31T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2021,"reportingFrequency":3,"reportingTerm":3,"startDate":"2022-04-01T00:00:00","endDate":"2022-06-30T23:59:59","isActive":false},{"organizationReference":{"id":1,"organizationType":5,"description":"Central","details":null,"reportingFrequency":12},"year":2021,"reportingFrequency":3,"reportingTerm":4,"startDate":"2022-07-01T00:00:00","endDate":"2022-09-30T23:59:59","isActive":false}]
+
+http://localhost:50009//reporting/v1/reportingperiod/oforganization?organizationId=20
+[{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2018,"reportingFrequency":1,"reportingTerm":1,"startDate":"2018-10-01T00:00:00","endDate":"2018-10-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2018,"reportingFrequency":1,"reportingTerm":2,"startDate":"2018-11-01T00:00:00","endDate":"2018-11-30T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2018,"reportingFrequency":1,"reportingTerm":3,"startDate":"2018-12-01T00:00:00","endDate":"2018-12-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2018,"reportingFrequency":1,"reportingTerm":4,"startDate":"2019-01-01T00:00:00","endDate":"2019-01-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2018,"reportingFrequency":1,"reportingTerm":5,"startDate":"2019-02-01T00:00:00","endDate":"2019-02-28T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2018,"reportingFrequency":1,"reportingTerm":6,"startDate":"2019-03-01T00:00:00","endDate":"2019-03-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2018,"reportingFrequency":1,"reportingTerm":7,"startDate":"2019-04-01T00:00:00","endDate":"2019-04-30T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2018,"reportingFrequency":1,"reportingTerm":8,"startDate":"2019-05-01T00:00:00","endDate":"2019-05-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2018,"reportingFrequency":1,"reportingTerm":9,"startDate":"2019-06-01T00:00:00","endDate":"2019-06-30T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2018,"reportingFrequency":1,"reportingTerm":10,"startDate":"2019-07-01T00:00:00","endDate":"2019-07-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2018,"reportingFrequency":1,"reportingTerm":11,"startDate":"2019-08-01T00:00:00","endDate":"2019-08-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2018,"reportingFrequency":1,"reportingTerm":12,"startDate":"2019-09-01T00:00:00","endDate":"2019-09-30T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2019,"reportingFrequency":1,"reportingTerm":1,"startDate":"2019-10-01T00:00:00","endDate":"2019-10-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2019,"reportingFrequency":1,"reportingTerm":2,"startDate":"2019-11-01T00:00:00","endDate":"2019-11-30T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2019,"reportingFrequency":1,"reportingTerm":3,"startDate":"2019-12-01T00:00:00","endDate":"2019-12-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2019,"reportingFrequency":1,"reportingTerm":4,"startDate":"2020-01-01T00:00:00","endDate":"2020-01-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2019,"reportingFrequency":1,"reportingTerm":5,"startDate":"2020-02-01T00:00:00","endDate":"2020-02-29T23:59:59","isActive":true},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2019,"reportingFrequency":1,"reportingTerm":6,"startDate":"2020-03-01T00:00:00","endDate":"2020-03-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2019,"reportingFrequency":1,"reportingTerm":7,"startDate":"2020-04-01T00:00:00","endDate":"2020-04-30T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2019,"reportingFrequency":1,"reportingTerm":8,"startDate":"2020-05-01T00:00:00","endDate":"2020-05-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2019,"reportingFrequency":1,"reportingTerm":9,"startDate":"2020-06-01T00:00:00","endDate":"2020-06-30T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2019,"reportingFrequency":1,"reportingTerm":10,"startDate":"2020-07-01T00:00:00","endDate":"2020-07-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2019,"reportingFrequency":1,"reportingTerm":11,"startDate":"2020-08-01T00:00:00","endDate":"2020-08-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2019,"reportingFrequency":1,"reportingTerm":12,"startDate":"2020-09-01T00:00:00","endDate":"2020-09-30T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2020,"reportingFrequency":1,"reportingTerm":1,"startDate":"2020-10-01T00:00:00","endDate":"2020-10-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2020,"reportingFrequency":1,"reportingTerm":2,"startDate":"2020-11-01T00:00:00","endDate":"2020-11-30T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2020,"reportingFrequency":1,"reportingTerm":3,"startDate":"2020-12-01T00:00:00","endDate":"2020-12-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2020,"reportingFrequency":1,"reportingTerm":4,"startDate":"2021-01-01T00:00:00","endDate":"2021-01-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2020,"reportingFrequency":1,"reportingTerm":5,"startDate":"2021-02-01T00:00:00","endDate":"2021-02-28T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2020,"reportingFrequency":1,"reportingTerm":6,"startDate":"2021-03-01T00:00:00","endDate":"2021-03-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2020,"reportingFrequency":1,"reportingTerm":7,"startDate":"2021-04-01T00:00:00","endDate":"2021-04-30T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2020,"reportingFrequency":1,"reportingTerm":8,"startDate":"2021-05-01T00:00:00","endDate":"2021-05-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2020,"reportingFrequency":1,"reportingTerm":9,"startDate":"2021-06-01T00:00:00","endDate":"2021-06-30T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2020,"reportingFrequency":1,"reportingTerm":10,"startDate":"2021-07-01T00:00:00","endDate":"2021-07-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2020,"reportingFrequency":1,"reportingTerm":11,"startDate":"2021-08-01T00:00:00","endDate":"2021-08-31T23:59:59","isActive":false},{"organizationReference":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"year":2020,"reportingFrequency":1,"reportingTerm":12,"startDate":"2021-09-01T00:00:00","endDate":"2021-09-30T23:59:59","isActive":false}]
+
+>> [[createPlan2 >>> fetchPostAccessToken >>> getPlan]]
+>> When Click Create
+---------------------------
+http://localhost:50009//reporting/v1/unit/plan/create2?year=2019&reportingTerm=8&reportingFrequency=1
+"d1606d15-6c68-47d3-a198-8f1df9641fb1"
+
+>> After approve from API
+---------------------------[getPlan]
+http://localhost:50009//reporting/v1/unit/plan/10
+{"id":10,"description":"2020_May-2020_May_Unit_WMN Unit","organization":{"id":20,"organizationType":1,"description":"WMN Unit","details":null,"reportingFrequency":1},"reportingPeriod":{"startDate":"2020-05-01T00:00:00","endDate":"2020-05-31T23:59:59","reportingFrequency":1,"reportingTerm":8,"year":2019},"reportStatus":1,"reportStatusDescription":"Draft","reOpenedReportStatus":0,"reOpenedReportStatusDescription":"None","associateMemberPlanData":{"nameAndContactNumber":null,"action":null,"upgradeTarget":0},"preliminaryMemberPlanData":{"nameAndContactNumber":null,"action":null,"upgradeTarget":0},"supporterMemberPlanData":{"nameAndContactNumber":null,"action":null,"upgradeTarget":0},"workerMeetingProgramPlanData":{"target":0,"dateAndAction":null},"dawahMeetingProgramPlanData":{"target":0,"dateAndAction":null},"stateLeaderMeetingProgramPlanData":{"target":0,"dateAndAction":null},"stateOutingMeetingProgramPlanData":{"target":0,"dateAndAction":null},"iftarMeetingProgramPlanData":{"target":0,"dateAndAction":null},"learningMeetingProgramPlanData":{"target":0,"dateAndAction":null},"socialDawahMeetingProgramPlanData":{"target":0,"dateAndAction":null},"dawahGroupMeetingProgramPlanData":{"target":0,"dateAndAction":null},"nextGMeetingProgramPlanData":{"target":0,"dateAndAction":null},"cmsMeetingProgramPlanData":{"target":0,"dateAndAction":null},"smMeetingProgramPlanData":{"target":0,"dateAndAction":null},"memberMeetingProgramPlanData":{"target":0,"dateAndAction":null},"tafsirMeetingProgramPlanData":{"target":0,"dateAndAction":null},"unitMeetingProgramPlanData":{"target":0,"dateAndAction":null},"familyVisitMeetingProgramPlanData":{"target":0,"dateAndAction":null},"eidReunionMeetingProgramPlanData":{"target":0,"dateAndAction":null},"bbqMeetingProgramPlanData":{"target":0,"dateAndAction":null},"gatheringMeetingProgramPlanData":{"target":0,"dateAndAction":null},"otherMeetingProgramPlanData":{"target":0,"dateAndAction":null},"memberMemberPlanData":{"nameAndContactNumber":null,"action":null,"upgradeTarget":0},"baitulMalFinancePlanData":{"action":null,"workerPromiseIncreaseTarget":{"amount":0.0,"currency":8},"otherSourceAction":null,"otherSourceIncreaseTarget":{"amount":0.0,"currency":8}},"aDayMasjidProjectFinancePlanData":{"action":null,"workerPromiseIncreaseTarget":{"amount":0.0,"currency":8},"otherSourceAction":null,"otherSourceIncreaseTarget":{"amount":0.0,"currency":8}},"masjidTableBankFinancePlanData":{"action":null,"workerPromiseIncreaseTarget":{"amount":0.0,"currency":8},"otherSourceAction":null,"otherSourceIncreaseTarget":{"amount":0.0,"currency":8}},"qardeHasanaSocialWelfarePlanData":{"target":0,"dateAndAction":null},"patientVisitSocialWelfarePlanData":{"target":0,"dateAndAction":null},"socialVisitSocialWelfarePlanData":{"target":0,"dateAndAction":null},"transportSocialWelfarePlanData":{"target":0,"dateAndAction":null},"shiftingSocialWelfarePlanData":{"target":0,"dateAndAction":null},"shoppingSocialWelfarePlanData":{"target":0,"dateAndAction":null},"foodDistributionSocialWelfarePlanData":{"target":0,"dateAndAction":null},"cleanUpAustraliaSocialWelfarePlanData":{"target":0,"dateAndAction":null},"otherSocialWelfarePlanData":{"target":0,"dateAndAction":null},"bookSaleMaterialPlanData":{"target":0,"dateAndAction":null},"bookDistributionMaterialPlanData":{"target":0,"dateAndAction":null},"bookLibraryStockPlanData":{},"otherSaleMaterialPlanData":{"target":0,"dateAndAction":null},"otherDistributionMaterialPlanData":{"target":0,"dateAndAction":null},"otherLibraryStockPlanData":{},"vhsSaleMaterialPlanData":{"target":0,"dateAndAction":null},"vhsDistributionMaterialPlanData":{"target":0,"dateAndAction":null},"vhsLibraryStockPlanData":{},"emailDistributionMaterialPlanData":{"target":0,"dateAndAction":null},"ipdcLeafletDistributionMaterialPlanData":{"target":0,"dateAndAction":null},"groupStudyTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"studyCircleTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"practiceDarsTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"stateLearningCampTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"quranStudyTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"quranClassTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"memorizingAyatTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"stateLearningSessionTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"stateQiyamulLailTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"studyCircleForAssociateMemberTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"hadithTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"weekendIslamicSchoolTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"memorizingHadithTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"memorizingDoaTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"otherTeachingLearningProgramPlanData":{"target":0,"dateAndAction":null},"timestamp":"2020-02-12T09:19:01.483"}
+
+>> Then It goes to edit page and (Save)Update the plan by [[ updatePlan ]] and then [[fetchPostAccessToken]]
+http://localhost:50009//reporting/v1/unit/plan/update?organizationId=20&planId=10
+"619d4dae-2375-43f0-8f3a-bac2572d273f"
+
+==================================================================================================================================================================
+
+
+===========================
+
+===========================
+
+==================================================================================================================================================================
+
+
+===========================
+
+===========================
+
+==================================================================================================================================================================
+
+
+===========================
+
+===========================
+
+==================================================================================================================================================================
+
+
+==========================================================
+Blank Plan
+==========================================================
+
+{
+	"id":10,
+	"description":"2020_May-2020_May_Unit_WMN Unit",
+	"organization":
+		{
+			"id":20,
+			"organizationType":1,
+			"description":"WMN Unit",
+			"details":null,
+			"reportingFrequency":1
+		},
+	"reportingPeriod":
+		{
+			"startDate":"2020-05-01T00:00:00",
+			"endDate":"2020-05-31T23:59:59",
+			"reportingFrequency":1,
+			"reportingTerm":8,
+			"year":2019
+		},
+	"reportStatus":1,
+	"reportStatusDescription":"Draft",
+	"reOpenedReportStatus":0,
+	"reOpenedReportStatusDescription":"None",
+	"associateMemberPlanData":
+		{
+			"nameAndContactNumber":null,
+			"action":null,
+			"upgradeTarget":0
+		},
+	"preliminaryMemberPlanData":
+		{
+			"nameAndContactNumber":null,
+			"action":null,
+			"upgradeTarget":0
+		},
+	"supporterMemberPlanData":
+		{
+			"nameAndContactNumber":null,
+			"action":null,
+			"upgradeTarget":0
+		},
+	"workerMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"dawahMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"stateLeaderMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"stateOutingMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"iftarMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"learningMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"socialDawahMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"dawahGroupMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"nextGMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"cmsMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"smMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"memberMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"tafsirMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"unitMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"familyVisitMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"eidReunionMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"bbqMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"gatheringMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"otherMeetingProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"memberMemberPlanData":
+		{
+			"nameAndContactNumber":null,
+			"action":null,
+			"upgradeTarget":0
+		},
+	"baitulMalFinancePlanData":
+		{
+			"action":null,
+			"workerPromiseIncreaseTarget":
+				{
+					"amount":0.0,
+					"currency":8
+				},
+			"otherSourceAction":null,
+			"otherSourceIncreaseTarget":
+				{
+					"amount":0.0,
+					"currency":8
+				}
+		},
+	"aDayMasjidProjectFinancePlanData":
+		{
+			"action":null,
+			"workerPromiseIncreaseTarget":
+				{
+					"amount":0.0,
+					"currency":8
+				},
+			"otherSourceAction":null,
+			"otherSourceIncreaseTarget":
+				{
+					"amount":0.0,
+					"currency":8
+				}
+		},
+	"masjidTableBankFinancePlanData":
+		{
+			"action":null,
+			"workerPromiseIncreaseTarget":
+				{
+					"amount":0.0,
+					"currency":8
+				},
+			"otherSourceAction":null,
+			"otherSourceIncreaseTarget":
+				{
+					"amount":0.0,
+					"currency":8
+				}
+		},
+	"qardeHasanaSocialWelfarePlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"patientVisitSocialWelfarePlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"socialVisitSocialWelfarePlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"transportSocialWelfarePlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"shiftingSocialWelfarePlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"shoppingSocialWelfarePlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"foodDistributionSocialWelfarePlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"cleanUpAustraliaSocialWelfarePlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"otherSocialWelfarePlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"bookSaleMaterialPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"bookDistributionMaterialPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"bookLibraryStockPlanData":{},
+	"otherSaleMaterialPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"otherDistributionMaterialPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"otherLibraryStockPlanData":{},
+	"vhsSaleMaterialPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"vhsDistributionMaterialPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"vhsLibraryStockPlanData":{},
+	"emailDistributionMaterialPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"ipdcLeafletDistributionMaterialPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"groupStudyTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"studyCircleTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"practiceDarsTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"stateLearningCampTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"quranStudyTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"quranClassTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"memorizingAyatTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"stateLearningSessionTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"stateQiyamulLailTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"studyCircleForAssociateMemberTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"hadithTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"weekendIslamicSchoolTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"memorizingHadithTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"memorizingDoaTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"otherTeachingLearningProgramPlanData":
+		{
+			"target":0,
+			"dateAndAction":null
+		},
+	"timestamp":"2020-02-12T09:19:01.483"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
