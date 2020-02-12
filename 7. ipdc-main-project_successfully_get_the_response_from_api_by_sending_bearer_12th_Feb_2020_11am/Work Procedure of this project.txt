@@ -1,0 +1,118 @@
+[ 6th February, 2020 ] [Step-1]
+>> vue create ipdc-main-project
+	->Babel
+	->Router
+	->Vuex
+	->Unit Testing (Jest)
+>> vue add vuetify
+>> npm install -save auth0-js
+====================================================================================================================================================================================
+[ 6th February, 2020 ] [Step-2]
+
+>> npm install --save-dev @fortawesome/fontawesome-free
+  [in the main.js file insert fontawesome]
+  [https://medium.com/front-end-weekly/how-to-use-fon-awesome-5-on-vuejs-project-ff0f28310821]
+  {
+    import '@fortawesome/fontawesome-free/css/all.css'
+    import '@fortawesome/fontawesome-free/js/all.js'
+  }
+>> npm install materialize-css@next
+>> npm install onsenui vue-onsenui
+  [in the main.js file insert fontawesome]
+  [https://onsen.io/v2/guide/vue/]
+  {
+    import 'onsenui/css/onsenui.css';
+    import 'onsenui/css/onsen-css-components.css';
+
+    import Vue from 'vue';
+    import VueOnsen from 'vue-onsenui';
+
+    Vue.use(VueOnsen);
+  }
+====================================================================================================================================================================================
+[ 6th February, 2020 ] [Step-3]
+
+MemberSwip is the parent swip page which can swip Member, AssociateMember, PriliminaryMember, SupporterMember.
+Mutation observer also added in MemberSwip page.
+This mutation can track if user swip any page. It actually track which tab is active or not.
+====================================================================================================================================================================================
+[ 7th February, 2020 ] [Step-4]
+
+Home page has been added. This Home page have the sub pages (Login and Dashboard).
+The parent component is Home page. Login and Dashboard can swip each other.
+====================================================================================================================================================================================
+[ 10th February, 2020 ] [Step-5]
+>> npm install axios
+
+setup axios url = http://localhost:50009/reporting/v1/all/search?page=1&pageSize=10
+main url = http://localhost:50009/reporting/v1/all
+and call this service from PlanAndReport.vue file.
+Successfully got the response and the result.
+
+Make the port specific as :
+>> npm run serve -- --port 8888
+or in th package.json file update the script from 
+["serve": "vue-cli-service serve]
+to
+["serve": "vue-cli-service serve --port 8081"]
+
+How to specific the port for project = https://stackoverflow.com/questions/47219819/how-to-change-port-number-in-vue-cli-project
+====================================================================================================================================================================================
+[ 10th February, 2020 ] [Step-6]
+
+Tried to connect RM API using axios and PlanAndReport.vue method used for axios response.
+====================================================================================================================================================================================
+[ 12th February, 2020 ] [Step-6]
+
+Successfully send the bearer from the project and get the response result from API. [PlanAndReport.vue] [in the click method]
+
+const token = 'Bearer ' + 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IlJEUkNSVVkwUkVaQ1JUWTJSREl6TlRkQk1VUTVPVEkyTkRCQ1JqZzBSRU0zUmpBMFF6SkNRUSJ9.eyJodHRwczovL3JlcG9ydGluZ21vZHVsZS5jb20vY2xhaW1zL0lzU3lzdGVtQWRtaW4iOnRydWUsImh0dHBzOi8vcmVwb3J0aW5nbW9kdWxlLmNvbS9jbGFpbXMvSXNTeXN0ZW1Vc2VyIjp0cnVlLCJodHRwczovL3JlcG9ydGluZ21vZHVsZS5jb20vY2xhaW1zL3VzZXJuYW1lIjoicml6d2FudWxAc2ltcGxleGh1Yi5jb20iLCJpc3MiOiJodHRwczovL2Rldi1udXpmcTU2My5hdS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NWQyZWIwYjY5NDk1MjYwZWJjNWQ2YTVmIiwiYXVkIjpbImh0dHA6Ly8zNS4yMDEuMC4zOS8iLCJodHRwczovL2Rldi1udXpmcTU2My5hdS5hdXRoMC5jb20vdXNlcmluZm8iXSwiaWF0IjoxNTgxNDc4NzU2LCJleHAiOjE1ODE0ODU5NTYsImF6cCI6IjhWbmdrVmI1MWdra0Jadml0U29yZEJONGw4cklPd2V0Iiwic2NvcGUiOiJvcGVuaWQgZW1haWwifQ.M2R0DKE5sVMIYIWoqSH8DbZHUwGUwxkmnz7W9m_7QDM4YWo0-F9pzcMCkyXxH8GeJk-JmBA1lKitmJP-VesC0hOtzwASHaK3b9RV1yHu2_NucR-YuSQDgbjwuTB_McY_IIbGnd6ogG6CIxeXcwAUOnvRGb3CvDyduFCWC-aMbZVp-UImvzcFBxPveZ9dtCMaMquygyRkgvvvwBaO3k0fDqCv5z4dSe3i4k4V4_5GHygpYca1h0U4uMWHhpz4E8jE6ZkImw41X8FFe3tawLs31XyO_9pSXPCpDovPUi_5d8dKGoyGwem288oZSKwtX1Ehh_e6zLspkz1RHGUnO4r3yw';
+const URL = "http://localhost:50009/reporting/v1/all/search?page=1&pageSize=10";
+axios.get(URL, {
+		headers: {
+			Authorization: token 
+		} 
+	})
+	.then((response) => {
+		console.log(response);
+		console.log(response.data);
+	})
+	.catch((error) => {
+		console.log(error)
+	})
+====================================================================================================================================================================================
+
+
+====================================================================================================================================================================================
+
+
+
+====================================================================================================================================================================================
+
+
+====================================================================================================================================================================================
+
+
+====================================================================================================================================================================================
+
+
+====================================================================================================================================================================================
+
+
+====================================================================================================================================================================================
+
+
+
+====================================================================================================================================================================================
+
+
+====================================================================================================================================================================================
+
+
+====================================================================================================================================================================================
+
+
+====================================================================================================================================================================================
+
+
+====================================================================================================================================================================================
