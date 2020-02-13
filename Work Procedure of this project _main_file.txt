@@ -104,8 +104,26 @@ export default class PostService{
 
 Adding some button in PlanAndReport.vue and get response result successfully.
 ====================================================================================================================================================================================
+[ 13th February, 2020 ] [Step-10]
 
-
+Added get method inside the axios after the header. It works properly.
+export default class PostService{
+    getAllPosts() {
+        return axios.get(URL, {							////Difference is here, there is a get request method after the axios [return axios.get(){}]////
+            headers: {
+                   Authorization: token 
+               } 
+        });
+    }
+    getPlanById() {
+        return axios(BASE_URL + URL_PLAN, {				////Difference is here, No method after the axios [return axios()]////
+            headers: {
+                   Authorization: token 
+               },
+            method: 'get'								////In here I have added the get request method, we can change it to any request method////
+        });
+    }
+}
 ====================================================================================================================================================================================
 
 
