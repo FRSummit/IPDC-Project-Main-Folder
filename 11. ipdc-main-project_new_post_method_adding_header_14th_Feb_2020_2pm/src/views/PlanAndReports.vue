@@ -25,6 +25,9 @@
             <div style="margin: 5px 0">
                 <button class="waves-effect waves-light btn" @click="getPlanById">Get Plan By Id</button>
             </div>
+            <div style="margin: 5px 0">
+                <button class="waves-effect waves-light btn" @click="testingSignalrConnection">Signalr Test</button>
+            </div>
         </div>
 
         <div class="report-unit-sec">
@@ -54,6 +57,8 @@
 <script>
 import UnitPlanReportService from '../services/UnitPlanReportService'
 const unitPlanReportService = new UnitPlanReportService();
+import * as signalR  from '@aspnet/signalr'
+import { HubConnectionBuilder, LogLevel } from '@aspnet/signalr'
 
 export default {
   components: {
@@ -61,12 +66,28 @@ export default {
 
   data () {
     return {
+        connection: null,
+        startedPromise: null,
         appName: process.env.VUE_APP_TITLE
     }
   },
   created() {
     // let componentName = {'name': 'Plan & Reports'};
     // localStorage.setItem('ipdc_current_component_name', JSON.stringify(componentName));
+    
+            // this.connection = new signalR.HubConnectionBuilder()
+            //     .withUrl("http://localhost:50009/signalr")
+            //     .configureLogging(signalR.LogLevel.Error)
+            //     .build();
+  },
+  mounted() {
+      
+            // this.connection.start();
+            // this.connection.on('signalr', data => {
+            //     var datas = data;
+            //     // this.lastUpdated = new Date().toLocaleString();
+            //     console.log(datas);
+            // });
   },
   methods:{
     createNew() {/*------------------------------ Create New Default button ------------------------------*/
@@ -134,6 +155,66 @@ export default {
         .catch(err =>{
             console.error(err);
         });
+    },
+    testingSignalrConnection() {
+      console.log('Signalr btn clicked');
+      /*var connection = new signalR.HubConnection()
+        .withUrl("http://localhost:50009//signalr")
+        // .configureLogging(signalR.LogLevel.Information)
+        // .build();
+      console.log('Connection : ' + connection);
+      console.log(connection);
+      console.log(connection.id);*/
+
+      /*const connection = new HubConnectionBuilder()
+      .withUrl('http://localhost:50009/signalr', {useDefaultPath: false})
+      .configureLogging(LogLevel.Information)
+      .build(); 
+      console.log(connection);
+
+
+    //     this.startedPromise = connection.start().catch(err => {
+    //         console.error('Failed to connect with hub', err)
+    //         return new Promise((resolve, reject) => 
+    //         setTimeout(() => start().then(resolve).catch(reject), 5000))
+    //     })
+
+    //     connection.onclose(() => start())*/
+
+        const OrganizationReference = {
+                        organization:
+                            {
+                                id: 25,
+                                organizationType: "1",
+                                description: "WMN Unit",
+                                reportingFrequency: "1",
+                                details: null
+                            },
+                        year: 2019,
+                        reportingTerm: 10,
+                        reportingFrequency: 1
+                    };
+        console.log(OrganizationReference.organization);
+        console.log(JSON.stringify(OrganizationReference.organization));
+        // console.log(orgRef.organizationReference);
+        console.log(OrganizationReference.year);
+        console.log(OrganizationReference.reportingTerm);
+        console.log(OrganizationReference.reportingFrequency);
+
+        const link = 'http://localhost:50009//reporting/v1/unit/plan/create2?year=' 
+                        + OrganizationReference.year + '&reportingTerm=' + OrganizationReference.reportingTerm + '&reportingFrequency=' + OrganizationReference.reportingFrequency;
+        // console.log(link);
+
+        unitPlanReportService
+            .createPlan2(link, OrganizationReference.organization)
+            .then(res => {
+                console.log('this is the res : ');
+                console.log(res.data);
+            })
+            .catch(err =>{
+                console.log('this is the error : ');
+                console.error(err);
+            });
     }
   },
   watch: {
