@@ -443,14 +443,147 @@ Blank Plan
 	"timestamp":"2020-02-12T09:19:01.483"
 }
 
+====================================================================================================================================================================================
+====================================================================================================================================================================================
+====================================================================================================================================================================================
+Json Body
+====================================================================================================================================================================================
+{
+	"associateMemberReportData":{"lastPeriod":0,"increased":0,"decreased":0,"comment":null,"personalContact":0},
+	"preliminaryMemberReportData":{"lastPeriod":0,"increased":0,"decreased":0,"comment":null,"personalContact":0},
+	"supporterMemberReportData":{"lastPeriod":0,"increased":0,"decreased":0,"comment":null,"personalContact":0},
+	"memberMemberReportData":{"lastPeriod":0,"increased":0,"decreased":0,"comment":null,"personalContact":0},
+	"workerMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"cmsMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"smMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"memberMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"dawahMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"stateLeaderMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"stateOutingMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"iftarMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"learningMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"socialDawahMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"dawahGroupMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"nextGMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"tafsirMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"unitMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"bbqMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"gatheringMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"familyVisitMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"eidReunionMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"otherMeetingProgramReportData":{"actual":0,"averageAttendance":0,"comment":null},
+	"groupStudyTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":0,"averageAttendance":0,"comment":null},
+	"studyCircleForAssociateMemberTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":0,"averageAttendance":0,"comment":null},
+	"studyCircleTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":0,"averageAttendance":0,"comment":null},
+	"practiceDarsTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":0,"averageAttendance":0,"comment":null},
+	"stateLearningCampTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":0,"averageAttendance":0,"comment":null},
+	"quranStudyTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":0,"averageAttendance":0,"comment":null},
+	"hadithTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":0,"averageAttendance":0,"comment":null},
+	"quranClassTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":0,"averageAttendance":0,"comment":null},
+	"weekendIslamicSchoolTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":0,"averageAttendance":0,"comment":null},
+	"memorizingAyatTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":3,"averageAttendance":0,"comment":null},
+	"memorizingHadithTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":0,"averageAttendance":0,"comment":null},
+	"memorizingDoaTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":0,"averageAttendance":0,"comment":null},
+	"stateLearningSessionTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":0,"averageAttendance":0,"comment":null},
+	"stateQiyamulLailTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":0,"averageAttendance":0,"comment":null},
+	"otherTeachingLearningProgramReportData":{"target":0,"dateAndAction":null,"actual":0,"averageAttendance":0,"comment":null},
+	"qardeHasanaSocialWelfareReportData":{"actual":0,"comment":null},
+	"patientVisitSocialWelfareReportData":{"actual":0,"comment":null},
+	"socialVisitSocialWelfareReportData":{"actual":0,"comment":null},
+	"transportSocialWelfareReportData":{"actual":0,"comment":null},
+	"shiftingSocialWelfareReportData":{"actual":0,"comment":null},
+	"shoppingSocialWelfareReportData":{"actual":0,"comment":null},
+	"foodDistributionSocialWelfareReportData":{"actual":0,"comment":null},
+	"cleanUpAustraliaSocialWelfareReportData":{"actual":0,"comment":null},
+	"otherSocialWelfareReportData":{"actual":0,"comment":null},
+	"bookSaleMaterialReportData":{"target":0,"dateAndAction":null,"actual":0,"comment":null},
+	"bookDistributionMaterialReportData":{"target":0,"dateAndAction":null,"actual":0,"comment":null},
+	"vhsSaleMaterialReportData":{"target":0,"dateAndAction":null,"actual":0,"comment":null},
+	"vhsDistributionMaterialReportData":{"target":0,"dateAndAction":null,"actual":0,"comment":null},
+	"emailDistributionMaterialReportData":{"target":0,"dateAndAction":null,"actual":0,"comment":null},
+	"ipdcLeafletDistributionMaterialReportData":{"target":0,"dateAndAction":null,"actual":0,"comment":null},
+	"otherSaleMaterialReportData":{"target":0,"dateAndAction":null,"actual":0,"comment":null},
+	"otherDistributionMaterialReportData":{"target":0,"dateAndAction":null,"actual":0,"comment":null},
+	"bookLibraryStockReportData":{"lastPeriod":0,"thisPeriod":0,"increased":0,"decreased":0,"comment":null},
+	"vhsLibraryStockReportData":{"lastPeriod":0,"thisPeriod":0,"increased":0,"decreased":0,"comment":null},
+	"otherLibraryStockReportData":{"lastPeriod":0,"thisPeriod":0,"increased":0,"decreased":0,"comment":null},
+	"baitulMalFinanceReportData":
+		{
+			"workerPromiseLastPeriod":
+				{
+					"amount":0,
+					"currency":8
+				},
+			"lastPeriod":
+				{
+					"amount":0,
+					"currency":8
+				},
+			"workerPromiseIncreased":
+				{
+					"amount":0,
+					"currency":8
+				},
+			"workerPromiseDecreased":
+				{
+					"amount":0,
+					"currency":8
+				},
+			"collection":
+				{
+					"amount":0,
+					"currency":8
+				},
+			"expense":
+				{
+					"amount":0,
+					"currency":8
+				},
+			"nisabPaidToCentral":
+				{
+					"amount":0,
+					"currency":8
+				},
+			"comment":null
+		},
+	"aDayMasjidProjectFinanceReportData":{"workerPromiseLastPeriod":{"amount":0,"currency":8},"lastPeriod":{"amount":0,"currency":8},"workerPromiseIncreased":{"amount":0,"currency":8},"workerPromiseDecreased":{"amount":0,"currency":8},"collection":{"amount":0,"currency":8},"expense":{"amount":0,"currency":8},"nisabPaidToCentral":{"amount":0,"currency":8},"comment":null},
+	"masjidTableBankFinanceReportData":{"workerPromiseLastPeriod":{"amount":0,"currency":8},"lastPeriod":{"amount":0,"currency":8},"workerPromiseIncreased":{"amount":0,"currency":8},"workerPromiseDecreased":{"amount":0,"currency":8},"collection":{"amount":0,"currency":8},"expense":{"amount":0,"currency":8},"nisabPaidToCentral":{"amount":0,"currency":8},"comment":null},
+	"comment":null
+}
 
 
 
 
+======================================================================================================================================
+Organization Reference
 
 
+OrganizationReference 
+	{
+		id: 20, 
+		organizationType: 1, 
+		description: "WMN Unit", 
+		reportingFrequency: 1, 
+		details: null
+	}
 
+body: 
+{"id":20,"organizationType":1,"description":"WMN Unit","reportingFrequency":1,"details":null}
+-------------------------------
+OrganizationReference {id: 20, organizationType: 1, description: "WMN Unit", reportingFrequency: 1, details: null}
+{"id":20,"organizationType":1,"description":"WMN Unit","reportingFrequency":1,"details":null}
 
+OrganizationReference 
+	{
+		id: 20, 
+		organizationType: 1, 
+		description: "WMN Unit", 
+		reportingFrequency: 1, 
+		details: null
+	}
+2019
+10
+1
 
 
 

@@ -1,0 +1,23 @@
+>> npm install @latelier/vue-signalr --save
+
+Go to main.js file and:
+
+import VueSignalR  from '@aspnet/signalr'
+
+new Vue({
+  router,
+  store,
+  vuetify,
+  VueSignalR,	<<-------------------------------------
+  render: h => h(App)
+}).$mount('#app')
+
+
+https://www.npmjs.com/package/@latelier/vue-signalr
+https://stackoverflow.com/questions/53693528/import-aspnet-signalr-in-vue-application/53693646
+https://vinceumo.github.io/devNotes/Dotnet/signalR/
+
+https://www.google.com/search?q=install+Signalr+into+vuejs&oq=install+Signalr+into+vuejs&aqs=chrome..69i57j33.7950j1j1&sourceid=chrome&ie=UTF-8
+
+
+>> npm install @aspnet/signalr
